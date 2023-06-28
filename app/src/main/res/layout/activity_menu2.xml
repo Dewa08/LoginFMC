@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_a"
+    android:columnCount="1"
+    tools:context="com.dewa202102309.login.MenuActivity2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/forex2"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:text="Forex"
+        android:id="@+id/tampilForexButton">
+    </Button>
+
+    <Button
+        android:id="@+id/btnTampilMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/mahasiswa3"
+        android:textSize="30sp"
+        android:text="Mahasiswa"
+        android:textColor="#fff">
+
+    </Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/cuaca3"
+        android:textColor="#fff"
+        android:text="Cuaca"
+        android:textSize="30sp"
+        android:id="@+id/tampilCuacaButton">
+
+    </Button>
+</GridLayout>
